@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class BankCustomerServiceController {
 	@GetMapping(path = "/hello")
 	public String helloParty() {
-		return "Hello Bank Customer!!!";
+		return "Hello Bank Customer";
 	}
 }
